@@ -100,7 +100,7 @@ const Checkout = () => {
                                                 </label>
                                                 <label className='-ml-px -mt-px basis-0 grow' htmlFor="tel">
                                                     <div className='cursor-text relative'>
-                                                        <input className={`w-full peer flex border px-4 py-[22px] border-solid text-lg border-light-gray focus:border-blue ${darkMode ? "bg-dark-blue text-white" : "bg-white text-gray-text-secondary"}`} type="tel" name="tel" required placeholder='+541234567890'/>
+                                                        <input className={`w-full peer flex border px-4 py-[22px] border-solid text-lg border-light-gray focus:border-blue ${darkMode ? "bg-dark-blue text-white" : "bg-white text-gray-text-secondary"}`} type="tel" name="tel" required placeholder='+513000000000'/>
                                                         <div className={`flex -mt-[52px] min-w-0 min-h-0 transition-all absolute flex-row ml-4 text-lg whitespace-nowrap text-ellipsis overflow-x-hidden text-gray-text-secondary peer-focus:-translate-y-4 peer-focus:text-xs peer-valid:-translate-y-4 peer-valid:text-xs ${darkMode ? "bg-dark-blue" : "bg-white"}`}>Número de teléfono</div>
                                                     </div>
                                                 </label>
