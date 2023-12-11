@@ -31,7 +31,7 @@ return (
                 <Sidebar/>
                 <Link to="/">
                     <picture className="mt-1 inline-block overflow-hidden relative">
-                        <img src={darkMode ? logoLight : logo} />
+                        <img src={darkMode ? logoLight : logo} alt = "fumo"/>
                     </picture>
                 </Link>
                 <ul className="flex items-center flex-wrap">
@@ -49,7 +49,7 @@ return (
                 <li className="list-item">
                     <div className="flex items-center flex-wrap">
                         <Link to='/' className="mt-1 mr-8 inline-block overflow-hidden relative">
-                            <img src={darkMode ? logoLight : logo} />
+                            <img src={darkMode ? logoLight : logo} alt = "fumo" />
                         </Link>
                         <NavCategories
                             titulo ="Normal Fumos"
